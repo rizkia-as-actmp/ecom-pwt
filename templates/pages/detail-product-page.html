@@ -1,0 +1,80 @@
+{% extends "main-frame.html" %}
+{% block head  %}
+<title>Halaman Detail Product</title>
+<link rel="stylesheet" href="./static/style/detail-product-page.css">
+
+{% endblock  %}
+
+{% block mainContent %}
+<main>
+    <figure>
+        <img src="./static/assets/images/home-inner-banner.jpg" />
+    </figure>
+
+    <section>
+        <div class="top">
+            <h4 class="product-name">Jas hujan asli intimart super kuat anti air dan ... </h4>
+            <div>
+                <div>
+                    <h4 class="price-tag">Rp1.000</h4>
+                    <p class="special-price-label">Cashback 10%</p>
+                </div>
+                <span class="material-symbols-outlined">favorite</span>
+            </div>
+        </div>
+        
+        <div class="product-stats">
+            <p>Terjual <span>750</span></p>
+            <div class="rating">
+                <div class="star">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="17 -34 6 5">
+                        <path d="M 17 -32 L 23 -32 L 18 -29 L 20 -34 L 22 -29 Z"/>
+                    </svg>
+                </div>
+                <p>5</p>
+            </div>
+        </div>
+
+        <p class="shop-location">
+            <span class="material-symbols-outlined">location_on</span>
+            Kab. Bandung
+        </p>
+
+        <hr>
+
+
+        <article>
+            <h4>Deskripsi Produk</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorum nobis id, illo officiis odit beatae excepturi debitis nihil ipsum odio modi voluptatum aliquid iure minima quos error molestias. Sint!z
+            <br><br>    
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias commodi doloremque quibusdam consectetur repudiandae deserunt vero tenetur fugit amet ipsum distinctio rem nisi cumque maxime tempora, impedit assumenda dolor earum?
+            </p>
+        </article>
+    </section>
+
+    <section class="buy-card">
+        <div>
+            <p>Jumlah pembelian : </p>
+            <input type="number" value="1"> 
+            <p>Stok : <span>12</span></p>
+        </div>
+        <div>
+            <p>Catatan : </p>
+            <textarea name="" id="" cols="30" rows="10">
+
+            </textarea>
+        </div>
+        <div>
+            <p>Subtotal </p>
+            <h4>Rp53.000</h4>
+        </div>
+        <div>
+            <button class="buy-button"><h4>Beli Langsung</h4></button>
+            <button class="buy-button"><h4>+ Keranjang</h4></button>
+        </div>
+    </section>
+</main>
+{% endblock %}
+
+{% block jsScript %}
+{% endblock %}

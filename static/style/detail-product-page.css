@@ -1,0 +1,157 @@
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: calc(var(--section-margin));
+    margin-top: var(--header-height);
+}
+
+figure {
+    background-color: green;
+    width: 100%;
+    height: 250px;
+    }
+
+section .top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section .top > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+} 
+
+section .top > div div {
+    display: flex;
+    gap: 10px;
+} 
+
+.price-tag {
+    font-size: 1.8rem;
+}
+
+.product-name {
+    font-size: 1.6rem;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--gray-color);
+}
+
+.product-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+hr {
+    margin-top: calc(var(--section-margin) / 3 );
+}
+
+.shop-location {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.shop-location span {
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+article {
+    margin-top: var(--section-margin);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.buy-card {
+    border: 1px solid var(--gray-color) ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
+
+.buy-card div:first-child, .buy-card div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.buy-card div:first-child input {
+    width: 25%;
+    text-align: center;
+}
+
+.buy-card div:not(:first-child,:nth-child(2)) {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.buy-card div textarea {
+    display: block;
+    width: 90%;
+    margin: 8px auto 0;
+}
+
+.buy-button {
+    flex: 1;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.buy-card div:last-child button:last-child {
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+@media screen and (min-width: 900px) {
+	main {
+        width: 90%;
+        margin: calc(var(--section-margin) * 3) auto 0;
+        display: flex;
+        flex-direction: row;
+        gap: var(--section-margin);
+	}
+
+    main > * {
+        flex: 1;
+    }
+
+    main > section:nth-child(2) {
+        flex: 2;
+    }
+
+    .shop-location {
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--gray-color);
+    }
+
+    hr {
+        display: none;
+    }
+}
+  
+@media screen and (max-width: 500px) {
+	main {
+        width: 95%;
+        margin: 0 auto;display: flex;
+        flex-direction: column;
+        row-gap: calc(var(--section-margin));
+	}
+}
