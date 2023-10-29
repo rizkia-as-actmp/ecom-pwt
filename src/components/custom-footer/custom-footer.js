@@ -80,7 +80,7 @@ class CustomFooter extends HTMLElement {
                         </div>
                     </section>
                     <a href="">
-                        <img src="src/assets/images/gp.png" alt="">sdf
+                        <img src="src/assets/images/gp.png" alt="">
                     </a>
                 </div>
             </footer>
