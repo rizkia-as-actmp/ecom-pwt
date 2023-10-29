@@ -1,0 +1,35 @@
+:host {
+    display: flex;
+    min-width: 300px;
+    max-width: 400px;
+    box-shadow: .3px .3px 7px rgba(0, 0, 0, .2);
+    border-radius: 8px;
+}
+
+:host figure {
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+:host section {
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+:host section p:first-child {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+:host section p:last-child {
+    font-size: 1.4rem;
+    color: var(--gray-color);
+}
