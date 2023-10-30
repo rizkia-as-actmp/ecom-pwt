@@ -23,7 +23,6 @@ function getAllProductsByCategories(callback, category) {
     xhr.send();
 }
   
-  // Contoh penggunaan fungsi fetchData
 getAllProducts(async products => {
     let firstProductSlider = document.getElementsByClassName("first-product-slider")[0]
     let thirdProductSlider = document.getElementsByClassName("third-product-slider")[0]
