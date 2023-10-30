@@ -1,0 +1,22 @@
+{% extends "main-frame.html" %}
+{% block head  %}
+    <title>Halaman Detail Product</title>
+{% endblock  %}
+
+{% block mainContent %}
+<main>
+    <article class="section-title">
+        <section>
+            <h4 id="search-result-information">Menampilkan - barang dari total - untuk "-"<h4>
+        </section>
+    </article>
+
+    <div class="bundle">
+    </div>
+</main>
+{% endblock %}
+
+{% block jsScript %}
+<script type="module" src="./static/js/search-page.js"></script>
+<script type="module" src="./static/components/productCard/product-card.js"></script>
+{% endblock %}

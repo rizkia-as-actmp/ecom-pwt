@@ -18,37 +18,37 @@ class CustomFooter extends HTMLElement {
             <footer>
                 <div>
                     <section>
-                        <h4>Tokoparyadi</h4>
-                        <p>Tentang Tokoparyadi</p>
-                        <p>Hak kekayaan Intelektual</p>
-                        <p>Karir</p>
-                        <p>Blog</p>
-                        <p>Bridestory</p>
-                        <p>Tokoparyadi Parents</p>
-                        <p>Mitra Blog</p>
-                        <p>Tokopedia Affiliate Program</p>
-                        <p>Tokoparyadi B2B Digital</p>
+                        <h4>KimbabStore</h4>
+                        <a href="/none">Tentang KimbabStore</a>
+                        <a href="/none">Hak kekayaan Intelektual</a>
+                        <a href="/none">Karir</a>
+                        <a href="/none">Blog</a>
+                        <a href="/none">Bridestory</a>
+                        <a href="/none">KimbabStore Parents</a>
+                        <a href="/none">Mitra Blog</a>
+                        <a href="/none">Tokopedia Affiliate Program</a>
+                        <a href="/none">KimbabStore B2B Digital</a>
                     </section>
                     <section>
                         <h4>Beli</h4>
-                        <p>Tentang Tokoparyadi</p>
-                        <p>Hak kekayaan Intelektual</p>
-                        <p>Karir</p>
+                        <a href="/none">Tentang KimbabStore</a>
+                        <a href="/none">Hak kekayaan Intelektual</a>
+                        <a href="/none">Karir</a>
                     </section>
                 </div>
                 <div>
                     <section>
                         <h4>Jual</h4>
-                        <p>Tentang Tokoparyadi</p>
-                        <p>Hak kekayaan Intelektual</p>
-                        <p>Karir</p>
+                        <a href="/none">Tentang KimbabStore</a>
+                        <a href="/none">Hak kekayaan Intelektual</a>
+                        <a href="/none">Karir</a>
                     </section>
                     <section>
                         <h4>Bantuan dan Panduan</h4>
-                        <p>Tentang Tokoparyadi</p>
-                        <p>Hak kekayaan Intelektual</p>
-                        <p>Karir</p>
-                        <p>Blog</p>
+                        <a href="/none">Tentang KimbabStore</a>
+                        <a href="/none">Hak kekayaan Intelektual</a>
+                        <a href="/none">Karir</a>
+                        <a href="/none">Blog</a>
                     </section>
                     <section>
                         <h4>Keamanan & Privasi</h4>
@@ -81,7 +81,7 @@ class CustomFooter extends HTMLElement {
                         </div>
                     </section>
                     <a href="">
-                        <img src="./static/assets/images/gp.png" alt="">
+                        <img src="./static/assets/images/footer.png" alt="">
                     </a>
                 </div>
             </footer>

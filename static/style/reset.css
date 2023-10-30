@@ -50,14 +50,16 @@ table {
 :root {
 	--header-color: white;
 	--header-height: 60px;
-	--secondary-color : #00AA5B; 
+	/* --secondary-color : #00AA5B;  */
+	--secondary-color : #fe6132; 
 	--header-font-color: white;
 	--third-color : #A03333;
 	--warning-box-color : #F94D63;
-	--special-price-color: #C9FDE0;
+	/* --special-price-color: #C9FDE0; */
+	--special-price-color: #f7e0d9;
 	--light-gray-color : #e5e7e9;
 	--gray-color :#6D7588;
-	--background-color: #FFFFFF;
+	--background-color: white;
 	--font-size: 16px;
 	--bundle-gap-size:25px;
 	--section-margin: 50px;
@@ -91,11 +93,7 @@ body {
 	color: var(--secondary-color);
 }
   
-main {
-	width: 70%;
-	margin: 0 auto;
-	margin-top: 100px;
-}
+
   
 h3 {
 	font-weight: bold;
@@ -137,6 +135,12 @@ img {
 	width: fit-content;
 	padding: 5px;
   }
+
+main {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 100px;
+}
 
 button {
 	background-color: transparent;

@@ -1,6 +1,7 @@
 const hamburgerButtonElement = document.getElementById("hamburger")
 const drawerElement = document.getElementById("drawer")
 const sp1 = document.getElementsByClassName("sp1")[0]
+const searchBar = document.getElementById("search-bar")
 
 hamburgerButtonElement.addEventListener("click", () => {
     drawerElement.classList.toggle("open")
@@ -10,6 +11,12 @@ hamburgerButtonElement.addEventListener("click", () => {
         hamburgerButtonElement.innerText = "☰"
     }
 })
+
+searchBar.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      window.open(`/search?query=${searchBar.value}`, "_self")
+    }
+  });
 
 console.log("oke")
 

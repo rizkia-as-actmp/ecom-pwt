@@ -13,12 +13,12 @@ function getDetailProducts(callback, productId) {
     xhr.send();
 }
 
-
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const productId = urlParams.get('id') 
 
 window.addEventListener("load", () => {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const productId = urlParams.get('id') 
+    
     // console.log(productId)
 
     productImage.innerHTML = ""

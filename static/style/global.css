@@ -18,6 +18,7 @@ header input {
   flex: .8;
   height: 38px;
   padding: 0 20px;
+  outline: none;
 }
 
 
@@ -34,8 +35,8 @@ header input {
   display: block;
   top: 60px;
   right: 0;
-  z-index: 99;
-  background-color: #7f7f3a;
+  z-index: 99999;
+  background-color: var(--secondary-color);
   box-shadow: 0 4px 4px -2px black;
   width: 200px;
   height: 100%;
@@ -89,6 +90,7 @@ header input {
 .home-slider-banner {
   margin: var(--section-margin) auto;
   width: 90%;
+  /* max-height: 350px; */
   border-radius: 10px;
   overflow: hidden;
 }
