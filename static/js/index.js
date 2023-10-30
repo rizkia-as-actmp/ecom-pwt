@@ -13,11 +13,11 @@ hamburgerButtonElement.addEventListener("click", () => {
 
 console.log("oke")
 
-if (document.visibilityState === 'visible') {
-    setTimeout(() => {
-        location.reload()
-    },2000)
-}
+// if (document.visibilityState === 'visible') {
+//     setTimeout(() => {
+//         location.reload()
+//     },5000)
+// }
 
 addEventListener("visibilitychange", (event) => {});
 

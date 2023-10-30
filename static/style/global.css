@@ -98,6 +98,7 @@ header input {
   column-gap: var(--bundle-gap-size);
   flex-wrap: nowrap;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 
