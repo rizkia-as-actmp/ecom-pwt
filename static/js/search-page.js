@@ -21,7 +21,6 @@ const searchResultInformation = document.getElementById("search-result-informati
 bundle.innerHTML = ""
 
 getAllProducts( products => {
-    console.log(products)
     const filteredProducts = (products.filter(product => product.title.toLowerCase().includes(querySearch.toLowerCase()) ))
 
     searchResultInformation.innerHTML = `Menampilkan ${filteredProducts.length} barang dari total ${products.length} untuk "${querySearch}"`
